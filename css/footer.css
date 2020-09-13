@@ -1,4 +1,6 @@
-
+#footer{
+    background:hsl(233, 12%, 13%);
+}
 .footer-heading{
     width:60%;
     color:#fff;
@@ -70,7 +72,10 @@
 }
 @media (max-width:600px){
     .footer-heading{
-        font-size:30px;
+        font-size:25px;
+    }
+    .footer-list{
+        font-size:14px;
     }
     .form-ip{
        font-size:10px;
