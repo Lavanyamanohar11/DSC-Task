@@ -1,0 +1,84 @@
+
+.footer-heading{
+    width:60%;
+    color:#fff;
+    font-weight:700;
+}
+.get-started-white{
+    background-color:#fff;
+    color:hsl(12, 88%, 59%);
+    padding:10px;
+    border-radius: 34px;
+    font-weight:500;
+}
+.get-started-white:hover{
+    color: hsl(12, 88%, 59%);
+    opacity: 0.8;
+ 
+}
+.orange{
+    background:hsl(12, 88%, 59%);
+}
+.blue{
+    background: hsl(233, 12%, 13%);
+    color: hsl(0, 0%, 98%)
+}
+.form-ip{
+    border-radius:30px;
+    width:100%;
+}
+.go-btn{
+    border-radius:30px;
+    font-weight:500;
+    color:#fff;
+    background:hsl(12, 88%, 59%);
+}
+.go-btn:hover{
+    color:#fff;
+    opacity:0.8;
+}
+.footer-list{
+    list-style:none;
+    line-height: 2;
+    cursor: pointer;
+}
+.footer-list li:hover{
+    color:hsl(12, 88%, 59%);
+}
+.icon{
+    cursor:pointer;
+    font-size:20px;
+}
+.icon:hover{
+    color:hsl(12, 88%, 59%);
+
+}
+#error-msg{
+    color:hsl(12, 88%, 59%);
+}
+
+@media (max-width:991px){
+    .orange{
+        text-align: center;
+    }
+    .footer-heading{
+        width:100%;
+    }
+    .blue{
+        text-align:center !important;
+    }
+}
+@media (max-width:600px){
+    .footer-heading{
+        font-size:30px;
+    }
+    .form-ip{
+       font-size:10px;
+    }
+    .go-btn{
+        font-size:12px;
+    }
+    .ul{
+        font-size:12px;
+    }
+}
